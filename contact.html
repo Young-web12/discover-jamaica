@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Discover Jamaica | Contact</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header><div class="navbar"><a class="logo" href="index.html">Discover Jamaica</a><button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav><a href="index.html">Home</a><a href="about.html">About</a><a href="attractions.html">Attractions</a><a class="active" href="contact.html">Contact</a></nav></div></header>
+<main><section class="page-banner"><h1>Contact Us</h1><p>Send us a message about the project</p></section>
+<section class="container"><form id="contactForm" novalidate><h2>Contact Form</h2>
+<label for="name">Full Name</label><input id="name" name="name" type="text" required minlength="2" autocomplete="name"><div id="nameError" class="error"></div>
+<label for="email">Email Address</label><input id="email" name="email" type="email" required autocomplete="email"><div id="emailError" class="error"></div>
+<label for="topic">Topic</label><select id="topic" name="topic" required><option value="">Choose a topic</option><option>Tourism</option><option>School Activity</option><option>Website Feedback</option></select><div id="topicError" class="error"></div>
+<label for="message">Message</label><textarea id="message" name="message" required minlength="10"></textarea><div id="messageError" class="error"></div>
+<button class="btn" type="submit">Send Message</button><div id="formMessage" role="status"></div></form></section></main>
+<footer><p>© 2026 Discover Jamaica School Tourism Club</p></footer><script src="js/script.js"></script></body></html>
